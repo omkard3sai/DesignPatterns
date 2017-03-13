@@ -21,7 +21,10 @@ print("Adding two traps....")
 roombuilder.addtrap()
 roombuilder.addtrap()
 
-# Build and display room
-print("Build and display room....")
+# Build the room
+print("Build the room....")
 newroom = roombuilder.buildroom()
+
+# Display the room
+print("\nDisplay room....")
 newroom.displayroom()

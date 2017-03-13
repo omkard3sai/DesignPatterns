@@ -24,6 +24,7 @@ class RoomBuilder:
         print("-> Added a trap in the room")
 
     def buildroom(self):
+        print("-> Building the room")
         return Room(self)
 
 
@@ -36,7 +37,7 @@ class Room:
         self.traps = room.traps
 
     def displayroom(self):
-        print("\n:::: Room Details ::::")
+        print(":::: Room Details ::::")
         print("Room Type :: " + str(self.roomtype))
         print("No. of Doors :: " + str(self.doors))
         print("No. of Windows :: " + str(self.windows))

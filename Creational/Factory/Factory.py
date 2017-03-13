@@ -11,10 +11,10 @@ class Room:
 class IceRoom:
 
     def __init__(self):
-        print("Ice room created")
+        print("-> Ice room created")
 
 
 class FireRoom:
 
     def __init__(self):
-        print("Fire room created")
+        print("-> Fire room created")

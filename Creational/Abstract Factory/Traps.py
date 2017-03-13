@@ -11,10 +11,10 @@ class Trap:
 class IceTrap:
 
     def __init__(self):
-        print("Ice trap created")
+        print("-> Ice trap created")
 
 
 class FireTrap:
 
     def __init__(self):
-        print("Fire trap created")
+        print("-> Fire trap created")

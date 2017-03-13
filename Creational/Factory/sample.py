@@ -1,4 +1,4 @@
-from Factory import Room
+from DesignPatterns.Creational.Factory.Factory import Room
 
 # Create fire room
 print("Creating fire room....")

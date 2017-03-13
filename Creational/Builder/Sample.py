@@ -1,4 +1,4 @@
-from Builder import RoomBuilder
+from DesignPatterns.Creational.Builder.Builder import RoomBuilder
 
 # Create new room
 print("Creating new room....")

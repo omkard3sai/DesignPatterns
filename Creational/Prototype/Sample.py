@@ -1,4 +1,4 @@
-from Prototype import Room
+from DesignPatterns.Creational.Prototype.Prototype import Room
 
 # Create prototype room
 print("Creating prototype room....")

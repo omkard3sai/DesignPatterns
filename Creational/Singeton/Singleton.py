@@ -14,3 +14,7 @@ class Singleton:
             Singleton.instance.data = data
             print("-> Rewrote " + str(olddata) + " with " + str(Singleton.instance.data))
 
+    @staticmethod
+    def getdata():
+        return Singleton.instance.data
+

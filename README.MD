@@ -4,6 +4,7 @@ Impemented design patterns using python.
 
 Reference :: <a href="https://github.com/kamranahmedse/design-patterns-for-humans">https://github.com/kamranahmedse/design-patterns-for-humans</a>
 
+
 ## Creational Design Patterns
 ### Factory
 Wikipedia says
@@ -13,17 +14,14 @@ Wikipedia says
 Wikipedia says
 > The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes
 
-Builder
---------------------------------------------
+### Builder
 Wikipedia says
 > The builder pattern is an object creation software design pattern with the intentions of finding a solution to the telescoping constructor anti-pattern.
 
-Prototype
-------------
+### Prototype
 Wikipedia says
 > The prototype pattern is a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 
-Singleton
-------------
+### Singleton
 Wikipedia says
 > In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.

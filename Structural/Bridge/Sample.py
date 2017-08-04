@@ -1,16 +1,19 @@
-from Objects import Window, Door, Trap
+from Enemies import Goblin, Troll, Giant
 
-# Creating Fire window
-print('Creating fire window....')
-fire_door = Window('Fire')
-fire_door.get_object()
+# Initialize common goblin
+goblin_object = Goblin('Common')
+goblin_object.display_enemy()
 
-# Creating Ice door
-print('Creating ice door....')
-ice_door = Door('Ice')
-ice_door.get_object()
+# Initialize rare goblin
+goblin_object = Goblin('Elite')
+goblin_object.display_enemy()
 
-# Creating Basic trap
-print('Creating basic trap....')
-basic_trap = Trap('Basic')
-basic_trap.get_object()
+# Initialize rare troll
+troll_object = Troll('Elite')
+troll_object.display_enemy()
+
+# Initialize legendary giant
+giant_object = Giant('Legendary')
+giant_object.display_enemy()
+
+

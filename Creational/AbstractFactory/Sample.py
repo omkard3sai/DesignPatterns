@@ -2,8 +2,8 @@ from AbstractFactory import RoomFactory
 
 # Create fire room and trap
 print("Generating fire room....")
-newfirefactory = RoomFactory.generateroom("Fire")
+new_fire_factory = RoomFactory.generate_room("Fire")
 
 # Create ice room and trap
 print("Generating ice room....")
-newicefactory = RoomFactory.generateroom("Ice")
+new_ice_factory = RoomFactory.generate_room("Ice")

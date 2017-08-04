@@ -1,30 +1,30 @@
-from DesignPatterns.Creational.Builder.Builder import RoomBuilder
+from Builder import RoomBuilder
 
 # Create new room
 print("Creating new room....")
-roombuilder = RoomBuilder()
+room_builder = RoomBuilder()
 
 # Set room type to fire
 print("Setting room type to fire....")
-roombuilder.setroomtype("Fire")
+room_builder.set_room_type("Fire")
 
 # Add a door
 print("Adding a door....")
-roombuilder.adddoor()
+room_builder.add_door()
 
 # Add a window
 print("Adding a window....")
-roombuilder.addwindow()
+room_builder.add_window()
 
 # Add two traps
 print("Adding two traps....")
-roombuilder.addtrap()
-roombuilder.addtrap()
+room_builder.add_trap()
+room_builder.add_trap()
 
 # Build the room
 print("Build the room....")
-newroom = roombuilder.buildroom()
+new_room = room_builder.build_room()
 
 # Display the room
 print("\nDisplay room....")
-newroom.displayroom()
+new_room.display_room()

@@ -1,14 +1,14 @@
-from DesignPatterns.Creational.AbstractFactory.Rooms import Room
-from DesignPatterns.Creational.AbstractFactory.Traps import Trap
+from Rooms import Room
+from Traps import Trap
 
 
 class RoomFactory:
 
     @staticmethod
-    def generateroom(roomtype=None):
-        if roomtype == "Ice":
+    def generate_room(room_type=None):
+        if room_type == "Ice":
             return IceRoomFactory()
-        if roomtype == "Fire":
+        if room_type == "Fire":
             return FireRoomFactory()
 
 

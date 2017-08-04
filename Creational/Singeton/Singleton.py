@@ -1,21 +1,21 @@
 class FinalRoom:
 
     class __RoomData:
-        def __init__(self, roomtype):
-            self.roomtype = roomtype
+        def __init__(self, room_type):
+            self.room_type = room_type
     instance = None
 
-    def __init__(self, roomtype):
+    def __init__(self, room_type):
         if FinalRoom.instance is None:
-            FinalRoom.instance = FinalRoom.__RoomData(roomtype)
-            print("-> Created singleton object with " + str(FinalRoom.instance.roomtype))
+            FinalRoom.instance = FinalRoom.__RoomData(room_type)
+            print("-> Created singleton object with " + str(FinalRoom.instance.room_type))
         else:
-            oldroomtype = FinalRoom.instance.roomtype
-            FinalRoom.instance.roomtype = roomtype
-            print("-> Rewrote " + str(oldroomtype) + " with " + str(FinalRoom.instance.roomtype))
+            old_room_type = FinalRoom.instance.room_type
+            FinalRoom.instance.room_type = room_type
+            print("-> Rewrote " + str(old_room_type) + " with " + str(FinalRoom.instance.room_type))
 
     @staticmethod
-    def getdata():
-        return FinalRoom.instance.roomtype
+    def get_data():
+        return FinalRoom.instance.room_type
 
 

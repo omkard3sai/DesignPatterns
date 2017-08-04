@@ -1,10 +1,10 @@
 class Room:
 
     @staticmethod
-    def createroom(roomtype=None):
-        if roomtype == "Ice":
+    def create_room(room_type=None):
+        if room_type == "Ice":
             return IceRoom()
-        if roomtype == "Fire":
+        if room_type == "Fire":
             return FireRoom()
 
 

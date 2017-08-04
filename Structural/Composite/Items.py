@@ -12,15 +12,15 @@ class Item:
 
 
 class Sword(Item):
-    def __init__(self):
-        super().__init__(20, 0)
+    def __init__(self, damage=0, armor=0):
+        super().__init__(damage, armor)
 
 
 class Shield(Item):
-    def __init__(self):
-        super().__init__(5, 10)
+    def __init__(self, damage=0, armor=0):
+        super().__init__(damage, armor)
 
 
 class Helmet(Item):
-    def __init__(self):
-        super().__init__(0, 15)
+    def __init__(self, damage=0, armor=0):
+        super().__init__(damage, armor)
